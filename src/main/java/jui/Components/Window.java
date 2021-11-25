@@ -1,15 +1,17 @@
 package jui.Components;
 
 import javax.swing.*;
-import java.awt.*;
 
+@SuppressWarnings("ALL")
 public class Window extends JComponent{
     final public int EXIT_ON_CLOSE = JFrame.EXIT_ON_CLOSE;
     final public int DO_NOTHING_ON_CLOSE = JFrame.DO_NOTHING_ON_CLOSE;
     final public int HIDE_ON_CLOSE = JFrame.HIDE_ON_CLOSE;
     final public int DISPOSE_ON_CLOSE = JFrame.DISPOSE_ON_CLOSE;
     int x,y;
-    JFrame Window = new JFrame();;
+    @SuppressWarnings("CanBeFinal")
+    JFrame Window = new JFrame();
+
     public void createWindow(String Title, int x, int y)
     {
         Window.setTitle(Title);

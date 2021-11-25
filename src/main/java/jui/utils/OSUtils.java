@@ -3,8 +3,10 @@ package jui.utils;
 import java.io.IOException;
 import java.util.Locale;
 
+@SuppressWarnings("unused")
 public class OSUtils {
 
+    @SuppressWarnings("unused")
     public enum OS {
         WINDOWS,
         UNIX,
@@ -24,6 +26,7 @@ public class OSUtils {
         }
     }
 
+    @SuppressWarnings("CanBeFinal")
     private static OS os = OS.OTHER;
 
     static {
@@ -65,6 +68,7 @@ public class OSUtils {
     public static OS getOs() {
         return os;
     }
+    @SuppressWarnings("unused")
     public String getOSWithVersion()
     {
     	String osWithVersion = (getOs()+" " + OS.getVersion()).trim();

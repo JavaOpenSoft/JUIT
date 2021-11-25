@@ -60,9 +60,9 @@ public class ErrorNotification {
 	}
 	public void setFont(String FontName,String FontType,short size)
 	{
-		if(FontType == "Plain")ErrorText.setFont(new Font(FontName, Font.PLAIN, size));
-		if(FontType == "Bold")ErrorText.setFont(new Font(FontName, Font.BOLD, size));
-		if(FontType == "Italic")ErrorText.setFont(new Font(FontName, Font.ITALIC, size));
+		if(FontType.equals("Plain"))ErrorText.setFont(new Font(FontName, Font.PLAIN, size));
+		if(FontType.equals("Bold"))ErrorText.setFont(new Font(FontName, Font.BOLD, size));
+		if(FontType.equals("Italic"))ErrorText.setFont(new Font(FontName, Font.ITALIC, size));
 
 	}
 	public void setTitleIcon(String pathOfFile)
@@ -128,15 +128,15 @@ public class ErrorNotification {
 	}
 	public void setButtonOkFont(String FontName,String FontType,short size)
 	{
-		if(FontType == "Plain")ok.setFont(new Font(FontName, Font.PLAIN, size));
-		if(FontType == "Bold")ok.setFont(new Font(FontName, Font.BOLD, size));
-		if(FontType == "Italic")ok.setFont(new Font(FontName, Font.ITALIC, size));
+		if(FontType.equals("Plain"))ok.setFont(new Font(FontName, Font.PLAIN, size));
+		if(FontType.equals("Bold"))ok.setFont(new Font(FontName, Font.BOLD, size));
+		if(FontType.equals("Italic"))ok.setFont(new Font(FontName, Font.ITALIC, size));
 	}
 	public void setButtonCancelFont(String FontName,String FontType,short size)
 	{
-		if(FontType == "Plain")cancel.setFont(new Font(FontName, Font.PLAIN, size));
-		if(FontType == "Bold")cancel.setFont(new Font(FontName, Font.BOLD, size));
-		if(FontType == "Italic")cancel.setFont(new Font(FontName, Font.ITALIC, size));
+		if(FontType.equals("Plain"))cancel.setFont(new Font(FontName, Font.PLAIN, size));
+		if(FontType.equals("Bold"))cancel.setFont(new Font(FontName, Font.BOLD, size));
+		if(FontType.equals("Italic"))cancel.setFont(new Font(FontName, Font.ITALIC, size));
 	}
 
 	public void trimTextOfCancelButton()

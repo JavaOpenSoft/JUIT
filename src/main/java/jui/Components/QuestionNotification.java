@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
 
+@SuppressWarnings("ALL")
 public class QuestionNotification {
 
 
@@ -26,7 +27,8 @@ public class QuestionNotification {
     public void SetIcon(String filePathWithName) {
         IconImage.setIcon(new ImageIcon(Objects.requireNonNull(QuestionNotification.class.getResource(filePathWithName))));
     }
-    public void setSizeOfText(short x,short y) {
+    @SuppressWarnings("SuspiciousNameCombination")
+    public void setSizeOfText(short x, short y) {
         QuestionText.setSize(y, x);
     }
     public void setTitle(String Title)
@@ -96,23 +98,19 @@ public class QuestionNotification {
     }
     public short getYOfYesButton()
     {
-        short ButtonY = 175;
-        return ButtonY;
+        return (short) 175;
     }
     public short getXOfYesButton()
     {
-        short ButtonX = 600;
-        return ButtonX;
+        return (short) 600;
     }
     public short getYOfNokButton()
     {
-        short NoButtonY = 175;
-        return NoButtonY;
+        return (short) 175;
     }
     public short getXOfNoButton()
     {
-        short NoButtonX = 600;
-        return NoButtonX;
+        return (short) 600;
     }
     public void AddNoButton()
     {

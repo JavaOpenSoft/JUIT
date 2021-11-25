@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
 
+@SuppressWarnings("ALL")
 public class SuccessNotification {
 
 
@@ -55,9 +56,9 @@ public class SuccessNotification {
 	}
 	public void setFont(String FontName,String FontType,short size)
 	{
-		if(FontType == "Plain")successText.setFont(new Font(FontName, Font.PLAIN, size));
-		if(FontType == "Bold")successText.setFont(new Font(FontName, Font.BOLD, size));
-		if(FontType == "Italic")successText.setFont(new Font(FontName, Font.ITALIC, size));
+		if(FontType.equals("Plain"))successText.setFont(new Font(FontName, Font.PLAIN, size));
+		if(FontType.equals("Bold"))successText.setFont(new Font(FontName, Font.BOLD, size));
+		if(FontType.equals("Italic"))successText.setFont(new Font(FontName, Font.ITALIC, size));
 		
 	}
 	public void setTitleIcon(String pathOfFile)
@@ -103,7 +104,7 @@ public class SuccessNotification {
 	{
 		return (short) 600;
 	}
-	public short getYOfCancelkButton()
+	public short getYOfCancelOkButton()
 	{
 		return (short) 175;
 	}
@@ -125,9 +126,9 @@ public class SuccessNotification {
 	}
 	public void setButtonCancelFont(String FontName,String FontType,short size)
 	{
-		if(FontType == "Plain")cancel.setFont(new Font(FontName, Font.PLAIN, size));
-		if(FontType == "Bold")cancel.setFont(new Font(FontName, Font.BOLD, size));
-		if(FontType == "Italic")cancel.setFont(new Font(FontName, Font.ITALIC, size));
+		if(FontType.equals("Plain"))cancel.setFont(new Font(FontName, Font.PLAIN, size));
+		if(FontType.equals("Bold"))cancel.setFont(new Font(FontName, Font.BOLD, size));
+		if(FontType.equals("Italic"))cancel.setFont(new Font(FontName, Font.ITALIC, size));
 	}
 	
 	public void trimTextOfCancelButton()

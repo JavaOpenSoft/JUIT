@@ -1,8 +1,10 @@
 package jui.Components;
 import javax.swing.JButton;
+@SuppressWarnings("ALL")
 public class Button {
     JButton button;
     String Text;
+    @SuppressWarnings("FieldMayBeFinal")
     private int y = 50, x = 100, SizeX = 100,SizeY = 50;
     public Button(String Text, int x, int y) {
         button = new JButton(Text);
