@@ -6,7 +6,7 @@ import javax.swing.*;
 public class AboutJUIT {
 
     private JFrame frame;
-    private void ShowJUIDetails(int x, int y) {
+    public void ShowJUIDetails() {
         frame = new JFrame();
         frame.setBounds(100, 100, 450, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -16,8 +16,6 @@ public class AboutJUIT {
         Image icon = Toolkit.getDefaultToolkit().getImage(pathOfFile);
         frame.setIconImage(icon);
 
-        if(x<200) throw new IllegalArgumentException("The Value Of Integer X Is Less Than 200.");
-        if(y<200) throw new IllegalArgumentException("The Value Of Integer Y Is Less Than 200.");
 
         JLabel IconImage = new JLabel("");
         IconImage.setBounds(165, 6, 115, 133);
