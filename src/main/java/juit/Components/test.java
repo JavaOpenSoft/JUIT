@@ -1,11 +1,15 @@
 package jui.Components;
+
 import jui.utils.AboutJUIT;
+
+import javax.swing.*;
+
 class test
 {
     public static void main(String[] args)
     {
-        AboutJUIT aboutJUIT;
-        aboutJUIT = new AboutJUIT();
+
+        AboutJUIT aboutJUIT = new AboutJUIT();
         aboutJUIT.ShowJUIDetails();
         Window win = new Window();
         Button button = new Button("Tell About Me", 100, 50);
