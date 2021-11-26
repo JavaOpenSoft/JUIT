@@ -1,13 +1,11 @@
-package juit.Components;
-
-import juit.utils.AboutJUIT;
-
+package jui.Components;
+import jui.utils.AboutJUIT;
 class test
 {
     public static void main(String[] args)
     {
-
-        AboutJUIT aboutJUIT = new AboutJUIT();
+        AboutJUIT aboutJUIT;
+        aboutJUIT = new AboutJUIT();
         aboutJUIT.ShowJUIDetails();
         Window win = new Window();
         Button button = new Button("Tell About Me", 100, 50);
