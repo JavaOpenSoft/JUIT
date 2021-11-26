@@ -56,4 +56,8 @@ public class Label {
     {
         return label.getText();
     }
+    public void setText(String Text)
+    {
+        label.setText(Text);
+    }
 }
