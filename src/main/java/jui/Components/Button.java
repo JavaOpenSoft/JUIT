@@ -4,7 +4,6 @@ import javax.swing.JButton;
 public class Button {
     JButton button;
     String Text;
-    @SuppressWarnings("FieldMayBeFinal")
     private int y = 50, x = 100, SizeX = 100,SizeY = 50;
     public Button(String Text, int x, int y) {
         button = new JButton(Text);
@@ -13,6 +12,8 @@ public class Button {
         this.Text = Text;
         this.x = x;
         this.y = y;
+        this.SizeX = SizeX;
+        this.SizeY = SizeY;
     }
 
     public void createButton(String Text,int x, int y,int SizeX, int SizeY)
@@ -23,6 +24,8 @@ public class Button {
         this.Text = Text;
         this.x = x;
         this.y = y;
+        this.SizeX = SizeX;
+        this.SizeY = SizeY;
     }
     public String getText()
     {return Text;}
@@ -30,4 +33,20 @@ public class Button {
     {return x;}
     public int GetY()
     {return y;}
+    public int GetSizeX()
+    {return SizeX;}
+    public int GetSizeY()
+    {return SizeY;}
+
+    public JButton getButton() {
+        return button;
+    }
+
+    public void setText(String text) {
+        button.setText(text);
+    }
+    public void setButtonSize(int SizeX,int SizeY)
+    {
+        button.setSize(x,y);
+    }
 }
