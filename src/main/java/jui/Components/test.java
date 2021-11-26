@@ -4,9 +4,9 @@ class test
 {
     public static void main(String[] args)
     {
-        AboutJUIT ajui;
-        ajui = new AboutJUIT();
-        ajui.ShowJUIDetails(200,200);
+        AboutJUIT aboutJUIT;
+        aboutJUIT = new AboutJUIT();
+        aboutJUIT.ShowJUIDetails();
         Window win = new Window();
         Button button = new Button("Tell About Me", 100, 50);
         win.createWindow("What's Up Mate?", 400, 400);
