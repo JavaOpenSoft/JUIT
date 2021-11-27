@@ -33,11 +33,11 @@ public class Label {
     }
     public JLabel getLabel()
     {return label;}
-    public int GetX()
+    public int GetPositionX()
     {
         return PositionX;
     }
-    public int GetY()
+    public int GetPositionY()
     {
         return PositionY;
     }
