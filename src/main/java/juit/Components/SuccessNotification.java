@@ -156,11 +156,7 @@ public class SuccessNotification {
 		return this.FontName;
 	}
 	public String getFontType()
-	{
-		return this.FontType;
-	}
+	{return this.FontType;}
 	public short getFontSize()
-	{
-		return this.size;
-	}
+	{return this.size;}
 }
