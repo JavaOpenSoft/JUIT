@@ -1,8 +1,6 @@
-package jui.Components;
+package juit.Components;
 
-import jui.utils.AboutJUIT;
-
-import javax.swing.*;
+import juit.utils.AboutJUIT;
 
 class test
 {

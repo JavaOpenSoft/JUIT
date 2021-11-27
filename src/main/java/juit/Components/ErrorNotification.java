@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
@@ -41,7 +41,7 @@ public class ErrorNotification {
 	}
 	public void setDefaults()
 	{
-		String pathOfFile = "jui/img/error.png";
+		String pathOfFile = "juit/img/error.png";
 		frame.setBounds(100, 100, 600, 175);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Image icon = Toolkit.getDefaultToolkit().getImage(pathOfFile);

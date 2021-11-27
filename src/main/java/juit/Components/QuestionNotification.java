@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
@@ -39,7 +39,7 @@ public class QuestionNotification {
     {
         frame.setBounds(100, 100, 600, 175);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        String pathOfFile = "jui/img/warning.png";
+        String pathOfFile = "juit/img/warning.png";
         Image icon = Toolkit.getDefaultToolkit().getImage(pathOfFile);
         frame.setIconImage(icon);
         frame.setLocationRelativeTo(null);

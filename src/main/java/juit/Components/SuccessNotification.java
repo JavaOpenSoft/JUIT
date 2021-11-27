@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
@@ -18,6 +18,10 @@ public class SuccessNotification {
 	JButton cancel = new JButton();
 	String temp2 = cancel.getText();
 	JLabel successText;
+	private String FontName;
+	private String FontType;
+	private short size;
+
 	public void SetSuccessText(String displayText)
 	{
 		var successText = new JLabel(displayText);
@@ -39,7 +43,7 @@ public class SuccessNotification {
 
 			frame.setBounds(100, 100, 600, 175);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		String pathOfFile = "jui/img/success.png";
+		String pathOfFile = "juit/img/success.png";
 		Image icon = Toolkit.getDefaultToolkit().getImage(pathOfFile);
 			frame.setIconImage(icon);
 			frame.setLocationRelativeTo(null);
@@ -123,12 +127,18 @@ public class SuccessNotification {
 		if(FontType.equals("Plain"))ok.setFont(new Font(FontName, Font.PLAIN, size));
 		if(FontType.equals("Bold"))ok.setFont(new Font(FontName, Font.BOLD, size));
 		if(FontType.equals("Italic"))ok.setFont(new Font(FontName, Font.ITALIC, size));
+		this.FontType = FontType;
+		this.FontName = FontName;
+		this.size = size;
 	}
 	public void setButtonCancelFont(String FontName,String FontType,short size)
 	{
 		if(FontType.equals("Plain"))cancel.setFont(new Font(FontName, Font.PLAIN, size));
 		if(FontType.equals("Bold"))cancel.setFont(new Font(FontName, Font.BOLD, size));
 		if(FontType.equals("Italic"))cancel.setFont(new Font(FontName, Font.ITALIC, size));
+		this.FontName = FontName;
+		this.FontType = FontType;
+		this.size = size;
 	}
 	
 	public void trimTextOfCancelButton()
@@ -140,5 +150,17 @@ public class SuccessNotification {
 	{
 		String temp =ok.getText().trim();
 		ok.setText(temp);
+	}
+	public String getFontName()
+	{
+		return this.FontName;
+	}
+	public String getFontType()
+	{
+		return this.FontType;
+	}
+	public short getFontSize()
+	{
+		return this.size;
 	}
 }

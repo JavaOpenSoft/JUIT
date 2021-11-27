@@ -1,7 +1,6 @@
-package jui.Components;
+package juit.Components;
 
 import javax.swing.*;
-import java.awt.event.KeyEvent;
 
 @SuppressWarnings("ALL")
 public class Window extends JComponent{
