@@ -34,9 +34,7 @@ public class Label {
     public JLabel getLabel()
     {return label;}
     public int GetPositionX()
-    {
-        return PositionX;
-    }
+    {return PositionX;}
     public int GetPositionY()
     {
         return PositionY;
