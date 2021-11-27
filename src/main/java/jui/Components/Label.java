@@ -1,6 +1,7 @@
 package jui.Components;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Label {
     int PositionX,PositionY,SizeX,SizeY;
@@ -59,5 +60,11 @@ public class Label {
     public void setText(String Text)
     {
         label.setText(Text);
+    }
+    public void setFont(String FontName,String FontType,short size)
+    {
+        if(FontType.equals("Plain"))label.setFont(new Font(FontName, Font.PLAIN, size));
+        if(FontType.equals("Bold"))label.setFont(new Font(FontName, Font.BOLD, size));
+        if(FontType.equals("Italic"))label.setFont(new Font(FontName, Font.ITALIC, size));
     }
 }
