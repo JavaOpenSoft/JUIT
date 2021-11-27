@@ -2,13 +2,13 @@ package juit.Components;
 import javax.swing.JButton;
 @SuppressWarnings("ALL")
 public class Button {
-    JButton button;
+    JButton jButton = new JButton();
     String Text;
     private int y = 50, x = 100, SizeX = 100,SizeY = 50;
     public Button(String Text, int x, int y) {
-        button = new JButton(Text);
-        button.setSize(x,y);
-        button.setVisible(true);
+        jButton.setText(Text);
+        jButton.setSize(x,y);
+        jButton.setVisible(true);
         this.Text = Text;
         this.x = x;
         this.y = y;
@@ -18,9 +18,9 @@ public class Button {
 
     public void createButton(String Text,int x, int y,int SizeX, int SizeY)
     {
-        button = new JButton(Text);
-        button.setBounds(x,y,SizeX,SizeY);
-        button.setVisible(true);
+        jButton = new JButton(Text);
+        jButton.setBounds(x,y,SizeX,SizeY);
+        jButton.setVisible(true);
         this.Text = Text;
         this.x = x;
         this.y = y;
@@ -39,14 +39,12 @@ public class Button {
     {return SizeY;}
 
     public JButton getButton() {
-        return button;
+        return jButton;
     }
 
-    public void setText(String text) {
-        button.setText(text);
-    }
+    public void setText(String text) {jButton.setText(text);}
     public void setButtonSize(int SizeX,int SizeY)
     {
-        button.setSize(x,y);
+        jButton.setSize(x,y);
     }
 }
