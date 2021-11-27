@@ -1,5 +1,7 @@
 package juit.utils;
 
+import juit.Components.SuccessNotification;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.Objects;
