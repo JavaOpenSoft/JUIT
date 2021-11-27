@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,6 +6,10 @@ import java.awt.*;
 public class Label {
     int PositionX,PositionY,SizeX,SizeY;
     JLabel label = new JLabel();
+    private String FontName;
+    private String FontType;
+    private short size;
+
     public Label(String Text, int SizeX, int SizeY)
     {
         label.setText(Text);
@@ -47,22 +51,33 @@ public class Label {
     {
         return SizeY;
     }
-    public void SetPosition(int SizeX,int SizeY)
+    public void SetPosition(int PositionX,int PositionY)
     {
-        label.setBounds(SizeX,SizeY,this.PositionX,this.PositionY);
+        label.setBounds(this.SizeX,this.SizeY,PositionX,PositionY);
     }
     public String getText()
     {
         return label.getText();
-    }
-    public void setText(String Text)
-    {
-        label.setText(Text);
     }
     public void setFont(String FontName,String FontType,short size)
     {
         if(FontType.equals("Plain"))label.setFont(new Font(FontName, Font.PLAIN, size));
         if(FontType.equals("Bold"))label.setFont(new Font(FontName, Font.BOLD, size));
         if(FontType.equals("Italic"))label.setFont(new Font(FontName, Font.ITALIC, size));
+        this.FontName = FontName;
+        this.FontType = FontType;
+        this.size = size;
+    }
+    public String getFontName()
+    {
+        return this.FontName;
+    }
+    public String getFontType()
+    {
+        return this.FontType;
+    }
+    public short getFontSize()
+    {
+        return this.size;
     }
 }
