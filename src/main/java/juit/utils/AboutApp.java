@@ -10,7 +10,7 @@ public class AboutApp {
     int versionNumber;
     private String Author;
     private String Copyright;
-    private JLabel IconImage = new JLabel();
+    private final JLabel IconImage = new JLabel();
     JLabel AuthorLabel = new JLabel();
     JLabel CopyrightLabel = new JLabel();
     JLabel VersionNumber = new JLabel();
