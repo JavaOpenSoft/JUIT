@@ -9,3 +9,4 @@ public class DefaultImages {
     public Image WarningImage = Toolkit.getDefaultToolkit().getImage("jui/img/error.png");
     public Image AboutImage = Toolkit.getDefaultToolkit().getImage("jui/img/About.png");
 }
+
