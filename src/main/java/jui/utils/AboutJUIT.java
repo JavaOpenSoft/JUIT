@@ -19,10 +19,10 @@ public class AboutJUIT {
 
         JLabel IconImage = new JLabel("");
         IconImage.setBounds(165, 6, 115, 133);
-        IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/jui/img/db877c2e-4f32-43bf-8454-7d34afd48786 (1).png"))));
+        IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/jui/img/JUITIMG.png"))));
         frame.getContentPane().add(IconImage);
 
-        JLabel VersionNumber = new JLabel("Version 0.1 Beta");
+        JLabel VersionNumber = new JLabel("Version 0.2 Beta");
         VersionNumber.setBounds(162, 194, 106, 16);
         frame.getContentPane().add(VersionNumber);
 
