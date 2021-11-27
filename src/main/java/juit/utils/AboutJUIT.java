@@ -1,25 +1,24 @@
-package jui.utils;
+package juit.utils;
 import java.awt.*;
 import java.util.Objects;
 import javax.swing.*;
 
 public class AboutJUIT {
 
-    private JFrame frame;
     public void ShowJUIDetails() {
-        frame = new JFrame();
+        JFrame frame = new JFrame();
         frame.setBounds(100, 100, 450, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
         frame.setTitle("About");
-        String pathOfFile = "jui/img/Unknown.jpeg";
+        String pathOfFile = "juit/img/Unknown.jpeg";
         Image icon = Toolkit.getDefaultToolkit().getImage(pathOfFile);
         frame.setIconImage(icon);
 
 
         JLabel IconImage = new JLabel("");
         IconImage.setBounds(165, 6, 115, 133);
-        IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/jui/img/JUITIMG.png"))));
+        IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/juit/img/JUITIMG.png"))));
         frame.getContentPane().add(IconImage);
 
         JLabel VersionNumber = new JLabel("Version 0.2 Beta");

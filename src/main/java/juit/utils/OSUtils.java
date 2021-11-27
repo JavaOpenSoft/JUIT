@@ -1,4 +1,4 @@
-package jui.utils;
+package juit.utils;
 
 import java.io.IOException;
 import java.util.Locale;

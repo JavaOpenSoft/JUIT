@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 import javax.swing.JButton;
 @SuppressWarnings("ALL")
 public class Button {

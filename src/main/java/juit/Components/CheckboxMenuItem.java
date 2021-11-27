@@ -1,4 +1,4 @@
-package jui.Components;
+package juit.Components;
 
 public class CheckboxMenuItem {
 }
