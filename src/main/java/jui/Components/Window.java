@@ -31,7 +31,7 @@ public class Window extends JComponent{
     public void add(Label label)
     {
         JLabel jLabel = new JLabel(label.getText());
-        jLabel.setSize(label.GetX(),label.GetY());
+        jLabel.setSize(label.GetPositionX(),label.GetPositionY());
         Window.add(jLabel);
     }
 
