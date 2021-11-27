@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'jui'
-version '0.5-BETA'
+version '0.2-BETA'
 
 repositories {
     mavenCentral()
