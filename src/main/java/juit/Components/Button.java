@@ -1,5 +1,8 @@
 package juit.Components;
-import javax.swing.JButton;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 @SuppressWarnings("ALL")
 public class Button {
     JButton jButton = new JButton();
@@ -47,8 +50,14 @@ public class Button {
     {
         jButton.setSize(x,y);
     }
-    public void addActionInput(FileChooser fileChooser)
+    public void addFileChooserToButton(FileChooser fileChooser,String path)
     {
-
+        jButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser j = new JFileChooser(path);
+                j.showDialog(null,"ok");
+            }
+        });
     }
 }
