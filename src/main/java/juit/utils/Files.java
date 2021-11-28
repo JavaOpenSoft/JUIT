@@ -8,4 +8,9 @@ public class Files {
         pathOfFile = pathOfFile+"//"+NameOfFile;
         file = new java.io.File(pathOfFile);
     }
+    public boolean doesFileExist(String path)
+    {
+        File file = new File(path);
+        return file.exists();
+    }
 }
