@@ -47,4 +47,8 @@ public class Button {
     {
         jButton.setSize(x,y);
     }
+    public void addActionInput(FileChooser fileChooser)
+    {
+
+    }
 }
