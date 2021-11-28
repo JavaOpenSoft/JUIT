@@ -9,22 +9,6 @@ public class FileIO {
     public void copyContentsOfFile(File in,File out)
     {
         try {
-            bufferedReader = new BufferedReader(new FileReader(in.getPath()));
-            bufferedWriter = new BufferedWriter(new FileWriter(out.getPath()));
-            String data;
-            while((data = bufferedReader.readLine()) != null)
-            {
-                bufferedWriter.write(data+"\n");
-            }
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-    }
-    public void copyContentsOfFile()
-    {
-        try {
             bufferedReader = new BufferedReader(new FileReader(inPath));
             bufferedWriter = new BufferedWriter(new FileWriter(outPath));
             String data;
@@ -73,14 +57,6 @@ public class FileIO {
     public void setOutPath(String outPath)
     {
         this.outPath = outPath;
-    }
-    public String getInPath()
-    {
-        return inPath;
-    }
-    public String getOutPath()
-    {
-        return outPath;
     }
 
 }
