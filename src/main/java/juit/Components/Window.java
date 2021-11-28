@@ -71,4 +71,8 @@ public class Window extends JComponent{
     {
         window.add(toggleSwitch.jToggleButton);
     }
+    public void add(Panel panel)
+    {
+        window.add(panel.jPanel);
+    }
 }
