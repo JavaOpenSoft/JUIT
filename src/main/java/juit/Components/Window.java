@@ -1,8 +1,10 @@
 package juit.Components;
 
+import juit.Layouts.AbsoluteLayout;
 import juit.Layouts.FlowLayouts;
 
 import javax.swing.*;
+import java.awt.*;
 
 @SuppressWarnings("ALL")
 public class Window extends JComponent{
@@ -77,5 +79,9 @@ public class Window extends JComponent{
     public void setLayout(FlowLayouts flowLayouts)
     {
         window.setLayout(flowLayouts.flowLayout);
+    }
+    public void setLayout(AbsoluteLayout absoluteLayout)
+    {
+        window.setLayout((LayoutManager) absoluteLayout.getLayout());
     }
 }
