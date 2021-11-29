@@ -1,4 +1,4 @@
-package juit.awtObjects;
+package juit.Components;
 
 public class Seperator {
 }
