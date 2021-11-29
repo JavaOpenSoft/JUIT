@@ -1,5 +1,7 @@
 package juit.Components;
 
+import juit.Layouts.FlowLayouts;
+
 import javax.swing.*;
 
 @SuppressWarnings("ALL")
@@ -43,10 +45,7 @@ public class Window extends JComponent{
 
     public int GetX(){return x;}
     public int GetY() {return y;}
-    public void add(ScrollBar scrollBar)
-    {
-        window.add(scrollBar.jScrollBar);
-    }
+
     public void add(CheckBox checkBox)
     {
         window.add(checkBox.jCheckBox);
@@ -74,5 +73,9 @@ public class Window extends JComponent{
     public void add(Panel panel)
     {
         window.add(panel.jPanel);
+    }
+    public void setLayout(FlowLayouts flowLayouts)
+    {
+        window.setLayout(flowLayouts.flowLayout);
     }
 }
