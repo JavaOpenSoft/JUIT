@@ -1,6 +1,7 @@
 package juit.Components;
 
 import juit.Layouts.*;
+import juit.utils.Clock.Clock;
 
 import javax.swing.*;
 import java.awt.*;
@@ -45,7 +46,15 @@ public class Window extends JComponent{
 
     public int GetX(){return SizeX;}
     public int GetY() {return SizeY;}
-
+    public void add(Clock clock)
+    {
+        if(clock.getClockType().equals("Digital"))window.add(clock.getDigitalClock());
+        if(clock.getClockType().equals("Analog"))window.add(clock.getAnalogClock());
+    }
+    public void add(Spinner spinner)
+    {
+        window.add(spinner.jSpinner);
+    }
     public void add(CheckBox checkBox)
     {
         window.add(checkBox.jCheckBox);
