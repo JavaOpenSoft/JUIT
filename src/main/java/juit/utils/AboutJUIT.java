@@ -21,7 +21,7 @@ public class AboutJUIT {
         IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/juit/img/JUITIMG.png"))));
         frame.getContentPane().add(IconImage);
 
-        JLabel VersionNumber = new JLabel("Version 0.4 Beta");
+        JLabel VersionNumber = new JLabel("Version 0.5 Beta");
         VersionNumber.setBounds(162, 194, 106, 16);
         frame.getContentPane().add(VersionNumber);
 
