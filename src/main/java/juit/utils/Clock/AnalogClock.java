@@ -38,12 +38,6 @@ class AnalogClock extends JFrame implements MouseListener{
     Timer timer;
     TimeZone timeZone;
 
-    public static void main(String[] args){
-        frame = new AnalogClock();
-        frame.setTitle("Analog Clock GUI");
-        frame.setVisible(true);
-    }
-
     public AnalogClock() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setBounds(700, 100, 400, 430);
