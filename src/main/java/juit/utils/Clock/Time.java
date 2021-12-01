@@ -3,7 +3,8 @@ package juit.utils.Clock;
 public class Time {
     public String getTime()
     {
-        return String.valueOf(java.time.LocalTime.now());
+        String temp = String.valueOf(java.time.LocalTime.now());
+        return temp;
     }
     public void printTime()
     {
