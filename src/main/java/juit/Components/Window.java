@@ -13,7 +13,8 @@ public class Window extends JComponent{
     static final public byte HIDE_ON_CLOSE = JFrame.HIDE_ON_CLOSE;
     static final public byte DISPOSE_ON_CLOSE = JFrame.DISPOSE_ON_CLOSE;
     Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
-    private int posx = size.width, posy = size.height;
+    private final int posx = size.width;
+    private final int posy = size.height;
     int SizeX,SizeY,PositionX,PositionY;
 
     public int getPositionX() {
@@ -140,15 +141,15 @@ public class Window extends JComponent{
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("DOWN_CENTRE")){
-            temp.setBounds(posx/2,0,0,0);
+            temp.setBounds(posx/2,posy,0,0);
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("UP_CENTRE")){
-            temp.setBounds(0,posy/2,0,0);
+            temp.setBounds(posx,0,0,0);
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("RIGHT_DOWN_CORNER")){
-            temp.setBounds(0,posy/2,0,0);
+            temp.setBounds(0,posy,0,0);
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("RIGHT_UP_CORNER")){
@@ -156,11 +157,11 @@ public class Window extends JComponent{
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("LEFT_UP_CORNER")){
-            temp.setBounds(0,posy/2,0,0);
+            temp.setBounds(posx,posy/2,0,0);
             window.setLocationRelativeTo(temp);
         }
         if(Location.equals("LEFT_DOWN_CORNER")){
-            temp.setBounds(0,posy/2,0,0);
+            temp.setBounds(posx,posy,0,0);
             window.setLocationRelativeTo(temp);
         }
     }
