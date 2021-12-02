@@ -32,11 +32,9 @@ public class Spinner {
         return PositionY;
     }
 
-
     public int getSizeX() {
         return SizeX;
     }
-
 
     public int getSizeY() {
         return SizeY;
