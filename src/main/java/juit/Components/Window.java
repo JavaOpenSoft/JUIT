@@ -12,7 +12,18 @@ public class Window extends JComponent{
     static final public byte DO_NOTHING_ON_CLOSE = JFrame.DO_NOTHING_ON_CLOSE;
     static final public byte HIDE_ON_CLOSE = JFrame.HIDE_ON_CLOSE;
     static final public byte DISPOSE_ON_CLOSE = JFrame.DISPOSE_ON_CLOSE;
+    Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
+    private int posx = size.width, posy = size.height;
     int SizeX,SizeY,PositionX,PositionY;
+
+    public int getPositionX() {
+        return PositionX;
+    }
+
+    public int getPositionY() {
+        return PositionY;
+    }
+
     JFrame window = new JFrame();
 
     public void createWindow(String Title, int SizeX, int SizeY)
@@ -22,15 +33,6 @@ public class Window extends JComponent{
         window.setSize(SizeX,SizeY);
         this.SizeX = SizeX;
         this.SizeY = SizeY;
-    }
-
-    public void add(Button button)
-    {
-        window.add(button.jButton);
-    }
-    public void add(Label label)
-    {
-        window.add(label.label);
     }
 
     public JFrame getWindow() {
@@ -44,8 +46,16 @@ public class Window extends JComponent{
         if(WindowNumber == Window.EXIT_ON_CLOSE) window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    public int GetX(){return SizeX;}
-    public int GetY() {return SizeY;}
+    public int GetSizeX(){return SizeX;}
+    public int GetSizeY() {return SizeY;}
+    public void add(Button button)
+    {
+        window.add(button.jButton);
+    }
+    public void add(Label label)
+    {
+        window.add(label.label);
+    }
     public void add(Clock clock)
     {
         if(clock.getClockType().equals("Digital"))window.add(clock.getDigitalClock());
@@ -112,5 +122,46 @@ public class Window extends JComponent{
     public void setLayout(SpringLayouts springLayouts)
     {
         window.setLayout(springLayouts.springLayout);
+    }
+    public void setLocationOnScreen(Component component)
+    {
+        window.setLocationRelativeTo(component);
+    }
+    public void setLocationOnScreen(String Location)
+    {
+        JLabel temp = new JLabel();
+        if(Location.equals("CENTRE"))window.setLocationRelativeTo(null);
+        if(Location.equals("LEFT_CENTRE")){
+            temp.setBounds(0,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_CENTRE")){
+            temp.setBounds(posx,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("DOWN_CENTRE")){
+            temp.setBounds(posx/2,0,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("UP_CENTRE")){
+            temp.setBounds(0,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_DOWN_CORNER")){
+            temp.setBounds(0,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_UP_CORNER")){
+            temp.setBounds(0,0,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("LEFT_UP_CORNER")){
+            temp.setBounds(0,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("LEFT_DOWN_CORNER")){
+            temp.setBounds(0,posy/2,0,0);
+            window.setLocationRelativeTo(temp);
+        }
     }
 }
