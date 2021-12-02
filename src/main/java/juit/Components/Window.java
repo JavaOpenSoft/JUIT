@@ -94,7 +94,7 @@ public class Window extends JComponent{
     public void setLayout(BoxLayouts boxLayouts,Container pane,int AXIS)
     {
         window.setLayout(boxLayouts.getBoxLayout(pane,AXIS));
-        if(AXIS != BoxLayouts.X_AXIS || AXIS != BoxLayouts.Y_AXIS) throw new InvalidParameterException("setLayout()" +
+        if(AXIS != BoxLayouts.X_AXIS &&AXIS != BoxLayouts.Y_AXIS) throw new InvalidParameterException("setLayout()" +
                 " Function AXIS Parameter Which is Invalid. Try To use'BoxLayouts.Y_AXIS' or 'BoxLayouts.X_AXIS'");
     }
     public void setLayout(CardLayouts cardLayouts)
