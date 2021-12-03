@@ -45,4 +45,11 @@ public class Menu {
     {
         return this.size;
     }
+    public void add(RadioButtonMenuItem radioButtonMenuItem){
+        menu.add(radioButtonMenuItem.jRadioButtonMenuItem);
+    }
+    public void add(CheckboxMenuItem checkboxMenuItem)
+    {
+        menu.add(checkboxMenuItem.jCheckBoxMenuItem);
+    }
 }
