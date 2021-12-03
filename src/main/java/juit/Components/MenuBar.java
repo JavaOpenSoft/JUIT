@@ -11,8 +11,12 @@ public class MenuBar {
     public JMenuBar getMenuBar() {
         return menuBar;
     }
-    public void add(MenuItem menuItem)
-    {
-        menuBar.add(menuItem.menuItem);
+    public void add(Menu menu){
+        menuBar.add(menu.menu);
     }
+    public void remove(Menu menu)
+    {
+        menuBar.remove(menu.menu);
+    }
+
 }
