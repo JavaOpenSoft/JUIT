@@ -60,4 +60,8 @@ public class Button {
             }
         });
     }
+    public void addActionListener(ActionListener actionListener)
+    {
+        jButton.addActionListener(actionListener);
+    }
 }
