@@ -8,7 +8,13 @@ public class MenuItem {
     private String FontName;
     private String FontType;
     private short size;
-
+    public void add(RadioButtonMenuItem radioButtonMenuItem){
+        menuItem.add(radioButtonMenuItem.jRadioButtonMenuItem);
+    }
+    public void add(CheckboxMenuItem checkboxMenuItem)
+    {
+        menuItem.add(checkboxMenuItem.jCheckBoxMenuItem);
+    }
     public void setFont(String FontName,String FontType,short size)
     {
         if(FontType.equals("Plain"))menuItem.setFont(new Font(FontName, Font.PLAIN, size));
