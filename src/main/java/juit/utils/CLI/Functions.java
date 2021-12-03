@@ -1,4 +1,4 @@
-package juit.utils;
+package juit.utils.CLI;
 
 public class Functions {
     public int add(int num1, int num2) {
@@ -46,6 +46,38 @@ public class Functions {
     {
         return c1 == c2;
     }
-
-
+    public String concat(String str1,String str2)
+    {
+        return  str1+""+str2;
+    }
+    public String concatWithoutSpace(String str1,String str2)
+    {
+        return str1+str2;
+    }
+    public String concatSameString(String str)
+    {
+        return str+str;
+    }
+    public char ExtractCharacterFromString(String str,char extractChar)
+    {
+        char ch = 0;
+        char [] c = str.toCharArray();
+        for(int i =0;i< c.length-1;i++)
+        {
+            if(c[i] == extractChar)
+            {
+                ch = c[i];
+                break;
+            }
+        }
+        return ch;
+    }
+    public char[] ConvertStringToArray(String str)
+    {
+        return str.toCharArray();
+    }
+    public String removeExtraSpaces(String str)
+    {
+        return str.trim();
+    }
 }
