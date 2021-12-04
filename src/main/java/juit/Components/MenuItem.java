@@ -7,7 +7,12 @@ public class MenuItem {
     JMenuItem menuItem = new JMenuItem();
     private String FontName;
     private String FontType;
+    String Text;
     private short size;
+    public MenuItem(String Text)
+    {
+        setText(Text);
+    }
     public void add(RadioButtonMenuItem radioButtonMenuItem){
         menuItem.add(radioButtonMenuItem.jRadioButtonMenuItem);
     }
@@ -27,6 +32,7 @@ public class MenuItem {
     public void setText(String Text)
     {
         menuItem.setText(Text);
+        this.Text = Text;
     }
     public String getFontName()
     {
