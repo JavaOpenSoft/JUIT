@@ -7,7 +7,7 @@ public class ProgressBar extends JFrame {
     JProgressBar progressBar;
     int SizeX,SizeY,PositionX,PositionY;
 
-    ProgressBar() {
+    public ProgressBar() {
         progressBar = new JProgressBar(0, 2000);
         progressBar.setBounds(40, 40, 160, 30);
         progressBar.setValue(0);
