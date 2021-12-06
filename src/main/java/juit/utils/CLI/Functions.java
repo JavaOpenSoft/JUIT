@@ -72,7 +72,6 @@ public class Functions {
         }
         return ch;
     }
-
     public char[] ConvertStringToCharacterArray(String str)
     {
         return str.toCharArray();
@@ -80,8 +79,5 @@ public class Functions {
     public String removeExtraSpaces(String str)
     {
         return str.trim();
-    }
-    public static boolean isNumeric(String str){
-        return str != null && str.matches("[0-9.]+");
     }
 }
