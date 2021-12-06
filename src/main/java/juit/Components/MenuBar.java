@@ -7,10 +7,6 @@ public class MenuBar {
     public void setDifferentMenuBar(MenuBar menuBar) {
         this.menuBar = menuBar.menuBar;
     }
-
-    public JMenuBar getMenuBar() {
-        return menuBar;
-    }
     public void add(Menu menu){
         menuBar.add(menu.menu);
     }
