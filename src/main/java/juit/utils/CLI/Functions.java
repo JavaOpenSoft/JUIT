@@ -72,7 +72,7 @@ public class Functions {
         }
         return ch;
     }
-    public char[] ConvertStringToArray(String str)
+    public char[] ConvertStringToCharacterArray(String str)
     {
         return str.toCharArray();
     }
