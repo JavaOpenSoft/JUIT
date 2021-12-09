@@ -21,6 +21,4 @@ public class Color {
     public final int[] Deep_pink = {0,0,0};
     public final int[] Pink = {0,0,0};
 
-
-
 }
