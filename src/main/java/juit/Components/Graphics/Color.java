@@ -40,4 +40,7 @@ public class Color {
     {
         return colorIndex[2];
     }
+    public void getRGB(){
+        return ;
+    }
 }

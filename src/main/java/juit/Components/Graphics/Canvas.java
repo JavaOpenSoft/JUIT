@@ -43,11 +43,11 @@ public class Canvas {
     {
         g.drawRoundRect(x,y,width, height,ArchWidth,ArchHeight);
     }
-    public void setBackgroundColor(Color color)
+    public void setBackgroundColor(int[] colorIndex)
     {
-        int rgb = color.getRGB();
+        java.awt.Color color = new java.awt.Color(colorIndex[0],colorIndex[1],colorIndex[2]);
         canvas.setBackground(color);
-        this.color = new Color(rgb);
+        this.color = new Color(colorIndex[0],colorIndex[1],colorIndex[2]);
     }
     public Color getBackgroundColor()
     {
