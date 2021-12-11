@@ -23,16 +23,6 @@ public class Color {
     public final int[] Pink = {255,105,180};
     public final int[] Orange = {255,165,0};
     public final int[] HotPink = {255,0, 100};
-    public final int[] Bronze = {205, 127, 50};
-    public final int[] CalmBlue = {0,153, 255};
-    public final int[] LightIceBlue = {200,233,233};
-    public final int[] IceBlue = {207,242,255};
-    public final int[] DarkIceBlue = {198,220,245};
-    public final int[] SmokeGray = {207, 207, 207};
-    private short r;
-    private short g;
-    private short b;
-
     public Color(int r, int g, int b)
     {
         this.color = new java.awt.Color(r,g,b);
@@ -50,42 +40,4 @@ public class Color {
     {
         return colorIndex[2];
     }
-    public String getRGB(int[] colorIndex){
-        StringBuilder temp = new StringBuilder();
-        for(int i = 0; i < colorIndex.length-1; i++)
-        {
-            temp.append(colorIndex[i]);
-        }
-        return temp.toString();
-    }
-    public void changeR(short r)
-    {
-        this.r = r;
-        this.color = new java.awt.Color(r,g,b);
-    }
-    public void changeG(short g)
-    {
-        this.g = g;
-        this.color = new java.awt.Color(r,g,b);
-    }
-    public void changeB(short b)
-    {
-        this.b = b;
-        this.color = new java.awt.Color(r,g,b);
-    }
-    public void changeRGB(short r,short g, short b)
-    {
-        this.color = new java.awt.Color(r,g,b);
-        this.r = r;
-        this.g = g;
-        this.b = b;
-    }
-    public void changeRGB(int[] colorIndex)
-    {
-      this.color = new java.awt.Color(colorIndex[0],colorIndex[1],colorIndex[2]);
-      colorIndex[0] = this.r;
-      colorIndex[1] = this.g;
-      colorIndex[2] = this.b;
-    }
-
 }
