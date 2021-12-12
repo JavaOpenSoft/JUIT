@@ -1,5 +1,7 @@
 package juit.utils.CLI;
 
+import java.util.Arrays;
+
 public class Functions {
     public int add(int num1, int num2) {
         return num1 + num2;
@@ -72,6 +74,7 @@ public class Functions {
         }
         return ch;
     }
+
     public char[] ConvertStringToCharacterArray(String str)
     {
         return str.toCharArray();
@@ -79,5 +82,8 @@ public class Functions {
     public String removeExtraSpaces(String str)
     {
         return str.trim();
+    }
+    public static boolean isNumeric(String str){
+        return str != null && str.matches("[0-9.]+");
     }
 }
