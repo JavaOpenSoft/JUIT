@@ -7,8 +7,8 @@ public class Canvas {
     Graphics g = canvas.getGraphics();
     Color color = new Color(255,255,255);
 
-    public Canvas(Color color) {
-        setBackgroundColor(color);
+    public Canvas(int[] colorIndex) {
+        setBackgroundColor(colorIndex);
     }
 
     public void PaintImage(Image image,int x,int y,int width,int height,ImageObserver imageObserver)
@@ -20,10 +20,15 @@ public class Canvas {
         g.drawArc(x, y, width, height, startAngle, ArchAngle);
 
     }
-    public void setColor(Color color)
+    public void setGraphicsColor(int[] colorIndex)
     {
-        g.setColor(color);
+        g.setColor(new java.awt.Color(colorIndex[0],colorIndex[1],colorIndex[2]));
     }
+
+    public void setColor(int[] colorIndex) {
+
+    }
+
     public void setFont(Font font)
     {
         g.setFont(font.getFont());
@@ -53,5 +58,6 @@ public class Canvas {
     {
         return color;
     }
+
 
 }
