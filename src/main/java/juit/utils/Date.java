@@ -7,8 +7,7 @@ public class Date {
     {
         java.util.Date date = new java.util.Date();
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
-        String str = formatter.format(date);
-        return str;
+        return formatter.format(date);
     }
     public void printDate()
     {

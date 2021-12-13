@@ -66,18 +66,26 @@ public class Color {
     public void changeG(short g)
     {
         this.g = g;
+        this.color = new java.awt.Color(r,g,b);
     }
     public void changeB(short b)
     {
         this.b = b;
+        this.color = new java.awt.Color(r,g,b);
     }
     public void changeRGB(short r,short g, short b)
     {
         this.color = new java.awt.Color(r,g,b);
+        this.r = r;
+        this.g = g;
+        this.b = b;
     }
     public void changeRGB(int[] colorIndex)
     {
       this.color = new java.awt.Color(colorIndex[0],colorIndex[1],colorIndex[2]);
+      colorIndex[0] = this.r;
+      colorIndex[1] = this.g;
+      colorIndex[2] = this.b;
     }
 
 }
