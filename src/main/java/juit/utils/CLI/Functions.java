@@ -1,7 +1,5 @@
 package juit.utils.CLI;
 
-import java.util.Arrays;
-
 public class Functions {
     public int add(int num1, int num2) {
         return num1 + num2;
