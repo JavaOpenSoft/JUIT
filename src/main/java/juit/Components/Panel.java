@@ -5,7 +5,6 @@ import juit.utils.Clock.Clock;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 import java.security.InvalidParameterException;
 
 public class Panel {

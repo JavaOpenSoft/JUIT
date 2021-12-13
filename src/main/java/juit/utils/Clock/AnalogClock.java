@@ -178,6 +178,7 @@ class AnalogClock extends JFrame implements MouseListener{
     /*-----------------------------------------------*/
 
     /*----------------Clock Hands--------------------*/
+    @SuppressWarnings("SameParameterValue")
     private void drawHands(Graphics g, double hour, double minute, double second, Color colorSecond, Color colorMHour) {
         double rsecond = (second*6)*(Math.PI)/180;
         double rminute = ((minute + (second / 60)) * 6) * (Math.PI) / 180;
