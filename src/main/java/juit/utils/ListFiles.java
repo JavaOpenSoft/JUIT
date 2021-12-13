@@ -11,6 +11,7 @@ public class ListFiles {
         paths = file.list();
 
         // for each name in the path array
+        assert paths != null;
         for(String pathway:paths) {
             // prints filename and directory name
             System.out.println(path);
