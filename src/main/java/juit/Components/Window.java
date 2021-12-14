@@ -12,6 +12,11 @@ public class Window extends JComponent{
     static final public byte DO_NOTHING_ON_CLOSE = JFrame.DO_NOTHING_ON_CLOSE;
     static final public byte HIDE_ON_CLOSE = JFrame.HIDE_ON_CLOSE;
     static final public byte DISPOSE_ON_CLOSE = JFrame.DISPOSE_ON_CLOSE;
+    static final public String CENTRE = "CENTRE";
+    static final public String LEFT_CENTRE = "LEFT_CENTRE";
+    static final public String RIGHT_CENTRE = "RIGHT_CENTRE";
+    static final public String DOWN_CENTRE = "DOWN_CENTRE";
+    static final public String UP_CENTRE = "UP_CENTRE";
     Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
     private final int posx = size.width;
     private final int posy = size.height;
