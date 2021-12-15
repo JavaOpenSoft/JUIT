@@ -8,8 +8,45 @@ public class ImageFrame {
     JLabel imageFrame = new JLabel();
     JFrame frame = new JFrame();
     private int SizeX,SizeY,PositionX,PositionY;
-    public void setLocation(int x,int y) {
-
+    Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
+    private final int posx = size.width;
+    private final int posy = size.height;
+    public void setLocationOnScreen(String Location)
+    {
+        JLabel temp = new JLabel();
+        if(Location.equals("CENTRE"))frame.setLocationRelativeTo(null);
+        if(Location.equals("LEFT_CENTRE")){
+            temp.setBounds(0,posy/2,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_CENTRE")){
+            temp.setBounds(posx,posy/2,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("DOWN_CENTRE")){
+            temp.setBounds(posx/2,posy,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("UP_CENTRE")){
+            temp.setBounds(posx,0,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_DOWN_CORNER")){
+            temp.setBounds(0,posy,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("RIGHT_UP_CORNER")){
+            temp.setBounds(0,0,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("LEFT_UP_CORNER")){
+            temp.setBounds(posx,posy/2,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
+        if(Location.equals("LEFT_DOWN_CORNER")){
+            temp.setBounds(posx,posy,0,0);
+            frame.setLocationRelativeTo(temp);
+        }
     }
     public void setPositionAndSize(int PositionX, int PositionY,int SizeX,int SizeY) {
         imageFrame.setBounds(PositionX,PositionY,SizeX,SizeY);

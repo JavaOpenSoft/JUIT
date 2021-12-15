@@ -17,6 +17,12 @@ public class Window extends JComponent{
     static final public String RIGHT_CENTRE = "RIGHT_CENTRE";
     static final public String DOWN_CENTRE = "DOWN_CENTRE";
     static final public String UP_CENTRE = "UP_CENTRE";
+    static final public String RIGHT_DOWN_CORNER = "RIGHT_DOWN_CORNER";
+    static final public String RIGHT_UP_CORNER = "RIGHT_UP_CORNER";
+    static final public String LEFT_UP_CORNER = "LEFT_UP_CORNER";
+    static final public String LEFT_DOWN_CORNER = "LEFT_DOWN_CORNER";
+
+
     Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
     private final int posx = size.width;
     private final int posy = size.height;
