@@ -6,18 +6,19 @@ public class ScrollBar {
     JScrollPane scrollPane;
     JScrollBar jScrollBar= new JScrollBar();
     JScrollBar BottomScrollBar = new JScrollBar();
+    int PositionX = 0, PositionY =0,SizeX = 0,SizeY = 0;
     public void setPosition(String Position)
     {
-        jScrollBar = scrollPane.getVerticalScrollBar();
-        BottomScrollBar = scrollPane.createHorizontalScrollBar();
-        jScrollBar.setValue(jScrollBar.getMinimum());
-        BottomScrollBar.setValue(BottomScrollBar.getMinimum());
+        this.jScrollBar = scrollPane.getVerticalScrollBar();
+        this.BottomScrollBar = scrollPane.getHorizontalScrollBar();
+        this.jScrollBar.setValue(jScrollBar.getMinimum());
+        this.BottomScrollBar.setValue(BottomScrollBar.getMinimum());
         if (Position.equals("VERTICAL")) jScrollBar.setVisible(true);
         if(Position.equals("HORIZONTAL"))BottomScrollBar.setVisible(true);
         if (Position.equals("VERTICAL AND HORIZONTAL"))
         {
-            jScrollBar.setVisible(true);
-            BottomScrollBar.setVisible(true);
+            this.jScrollBar.setVisible(true);
+            this.BottomScrollBar.setVisible(true);
         }
         else throw new InvalidParameterException("The setPosition() function parameter must give either " +
                 "'HORIZONTAL' OR 'VERTICAL' or 'VERTICAL AND HORIZONTAL'" );
