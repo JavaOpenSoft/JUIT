@@ -9,4 +9,5 @@ public class Time {
     {
         System.out.println(java.time.LocalTime.now());
     }
+
 }
