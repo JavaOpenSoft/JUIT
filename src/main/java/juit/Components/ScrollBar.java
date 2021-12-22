@@ -4,8 +4,8 @@ import java.security.InvalidParameterException;
 
 public class ScrollBar {
     JScrollPane scrollPane;
-    JScrollBar jScrollBar= new JScrollBar();
-    JScrollBar BottomScrollBar = new JScrollBar();
+    public JScrollBar jScrollBar= new JScrollBar();
+    public JScrollBar BottomScrollBar = new JScrollBar();
     int PositionX = 0, PositionY =0,SizeX = 0,SizeY = 0;
     public void setPosition(String Position)
     {

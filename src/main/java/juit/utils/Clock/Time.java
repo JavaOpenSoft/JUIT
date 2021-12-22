@@ -1,9 +1,17 @@
 package juit.utils.Clock;
 
+import java.time.LocalTime;
+
 public class Time {
-    public String getTime()
+    public LocalTime getTime()
     {
-        return String.valueOf(java.time.LocalTime.now());
+
+        return java.time.LocalTime.now();
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
     public void printTime()
     {

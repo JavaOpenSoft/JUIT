@@ -1,4 +1,4 @@
-package juit.Components;
+package juit.Components.Panes;
 
 import javax.swing.*;
 import java.security.InvalidParameterException;
