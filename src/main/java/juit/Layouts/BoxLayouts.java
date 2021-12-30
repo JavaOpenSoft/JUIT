@@ -2,7 +2,7 @@ package juit.Layouts;
 import javax.swing.BoxLayout;
 import java.awt.*;
 
-public class BoxLayouts {
+public class BoxLayouts implements juit.Constants.LayoutConstants.BoxLayoutConstants{
     public static final int X_AXIS = BoxLayout.X_AXIS;
     public static final int Y_AXIS = BoxLayout.Y_AXIS;
     public Container getAndSetBoxLayout(Container pane,int AXIS)
