@@ -35,11 +35,11 @@ This section will be available once 1.0_rc1 will be released.
 
 **JUIT 0.8** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_ not yet started
+**Status:**_ Currently Working On Source Code.
 
 **JUIT 0.7** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_ Working
+**Status:**_ Finished
 
 **JUIT 0.6** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
