@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class CheckboxMenuItem {
     String Text = "";
+    boolean isSelected = false;
     JCheckBoxMenuItem jCheckBoxMenuItem = new JCheckBoxMenuItem();
     public void addActionListener(ActionListener actionListener)
     {
@@ -26,4 +27,14 @@ public class CheckboxMenuItem {
     {
         jCheckBoxMenuItem.setState(bool);
     }
+    public void setSelected(boolean isSelected)
+    {
+        jCheckBoxMenuItem.setState(isSelected);
+        this.isSelected = isSelected;
+    }
+    public boolean isSelected()
+    {
+        return isSelected;
+    }
+
 }

@@ -20,11 +20,9 @@ public class CheckBox {
     {
         return isSelected;
     }
+    @Override
     public String toString(){
-        String temp = "";
-        if(isSelected == true) temp = "true";
-        if(isSelected == false) temp = "false";
-        return temp;
+        return String.valueOf(isSelected());
     }
     public void setText(String Text){
         jCheckBox.setText(Text);
