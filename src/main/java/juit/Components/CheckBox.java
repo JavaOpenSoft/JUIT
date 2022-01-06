@@ -9,4 +9,7 @@ public class CheckBox {
     {
         jCheckBox.addActionListener(actionListener);
     }
+    public void setState(boolean state){
+    }
+    public void setSize(int SizeX, int SizeY){}
 }
