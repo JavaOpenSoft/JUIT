@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 
 public class CheckboxMenuItem {
+    public CheckboxMenuItem(String Text, boolean isChecked)
+    {
+        setCheckedState(isChecked);
+        setText(Text);
+    }
     String Text = "";
     ActionListener actionListener;
     boolean isChecked = false;
@@ -35,7 +40,7 @@ public class CheckboxMenuItem {
     public String getText() {
         return Text;
     }
-    public void setState(boolean isChecked){
+    public void setCheckedState(boolean isChecked){
         jCheckBoxMenuItem.setState(isChecked);
         this.isChecked = isChecked;
     }

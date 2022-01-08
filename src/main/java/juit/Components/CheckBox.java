@@ -11,6 +11,12 @@ public class CheckBox {
     private int PositionX;
     private int PositionY;
     private String Text, IconPath;
+    public CheckBox(String Text, boolean isChecked)
+    {
+        setCheckedState(isChecked);
+        setText(Text);
+    }
+
     public String getText() {
         return Text;
     }
@@ -80,5 +86,9 @@ public class CheckBox {
     public void setText(String Text){
         jCheckBox.setText(Text);
         this.Text = Text;
+    }
+    public void setCheckedState(boolean isChecked){
+        this.isChecked = isChecked;
+        jCheckBox.setSelected(isChecked);
     }
 }
