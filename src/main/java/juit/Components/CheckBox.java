@@ -10,7 +10,7 @@ public class CheckBox {
     private int SizeY;
     private int PositionX;
     private int PositionY;
-
+    private String Text, IconPath;
     public String getText() {
         return Text;
     }
@@ -19,7 +19,7 @@ public class CheckBox {
         return IconPath;
     }
 
-    private String Text, IconPath;
+
     public boolean getCheckedSate() {
         return isChecked;
     }
