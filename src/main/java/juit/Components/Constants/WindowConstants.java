@@ -1,6 +1,6 @@
 package juit.Components.Constants;
 
-import javax.swing.*;
+import javax.swing.JFrame;
 
 public interface WindowConstants {
     byte EXIT_ON_CLOSE = JFrame.EXIT_ON_CLOSE;
