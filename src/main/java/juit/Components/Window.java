@@ -176,4 +176,5 @@ public class Window extends JComponent{
             window.setLocationRelativeTo(temp);
         }
     }
+
 }
