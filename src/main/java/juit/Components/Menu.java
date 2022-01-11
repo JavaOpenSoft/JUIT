@@ -45,6 +45,10 @@ public class Menu {
     {
         return this.size;
     }
+    public void add(MenuItem menuItem)
+    {
+        menu.add(menuItem.menuItem);
+    }
     public void add(RadioButtonMenuItem radioButtonMenuItem){
         menu.add(radioButtonMenuItem.jRadioButtonMenuItem);
     }

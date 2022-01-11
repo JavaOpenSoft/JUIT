@@ -36,7 +36,12 @@ public class CheckboxMenuItem {
         jCheckBoxMenuItem.setText(Text);
         this.Text = Text;
     }
-
+    public void setCheckedIcon(String iconPath){
+        jCheckBoxMenuItem.setIcon(new ImageIcon(iconPath));
+    }
+    public void setUncheckedIcon(String iconPath){
+        jCheckBoxMenuItem.setDisabledIcon(new ImageIcon(iconPath));
+    }
     public String getText() {
         return Text;
     }
