@@ -19,16 +19,8 @@ public class Button {
         this.SizeY = SizeY;
     }
 
-    public void createButton(String Text,int x, int y,int SizeX, int SizeY)
-    {
-        jButton = new JButton(Text);
-        jButton.setBounds(x,y,SizeX,SizeY);
-        jButton.setVisible(true);
-        this.Text = Text;
-        this.x = x;
-        this.y = y;
-        this.SizeX = SizeX;
-        this.SizeY = SizeY;
+    public void setVisible(boolean isVisible) {
+        jButton.setVisible(isVisible);
     }
     public String getText()
     {return Text;}

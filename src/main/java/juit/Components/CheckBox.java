@@ -16,7 +16,9 @@ public class CheckBox {
         setCheckedState(isChecked);
         setText(Text);
     }
-
+    public void setVisible(boolean isVisible) {
+        jCheckBox.setVisible(isVisible);
+    }
     public String getText() {
         return Text;
     }
