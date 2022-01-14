@@ -6,6 +6,7 @@ import java.awt.*;
 public class ProgressBar extends JFrame {
     JProgressBar progressBar;
     int SizeX,SizeY,PositionX,PositionY;
+    private int progress;
 
     public ProgressBar() {
         progressBar = new JProgressBar(0, 2000);
@@ -15,8 +16,13 @@ public class ProgressBar extends JFrame {
         setLayout(null);
     }
 
+    public int getProgress() {
+        return progress;
+    }
+
     public void setProgressBarProgress(int progress) {
         progressBar.setValue(progress);
+        this.progress = progress;
     }
     public void setSize(int SizeX, int SizeY)
     {
@@ -34,5 +40,28 @@ public class ProgressBar extends JFrame {
     {
         progressBar.setForeground(color);
     }
+
+    public int getSizeX() {
+        return SizeX;
+    }
+
+    public int getSizeY() {
+        return SizeY;
+    }
+
+    public int getPositionX() {
+        return PositionX;
+    }
+
+    public int getPositionY() {
+        return PositionY;
+    }
+
+    public void setPositionAndSize(int PositionX, int PositionY, int SizeX, int SizeY)
+    {
+        setPosition(PositionX,PositionY);
+        setSize(SizeX,SizeY);
+    }
+
 
 }

@@ -1,5 +1,7 @@
 package juit.utils.CLI;
 
+import java.util.Scanner;
+
 public class Functions {
     public int add(int num1, int num2) {
         return num1 + num2;
@@ -83,5 +85,8 @@ public class Functions {
     }
     public static boolean isNumeric(String str){
         return str != null && str.matches("[0-9.]+");
+    }
+    public void getInput(String OutputText){
+        System.out.println(OutputText);
     }
 }
