@@ -10,7 +10,7 @@ public class Functions {
     public int sub(int num1, int num2) {
         return num1 - num2;
     }
-
+    Scanner sc = new Scanner(System.in);
     public int multiply(int num1, int num2)
     {
         return num1*num2;
@@ -62,7 +62,7 @@ public class Functions {
     }
     public char ExtractCharacterFromString(String str,char extractChar)
     {
-        char ch = 0;
+        char ch = 'a';
         char [] c = str.toCharArray();
         for(int i =0;i< c.length-1;i++)
         {
@@ -86,7 +86,35 @@ public class Functions {
     public static boolean isNumeric(String str){
         return str != null && str.matches("[0-9.]+");
     }
-    public void getInput(String OutputText){
+    public String getStringInput(String OutputText){
         System.out.println(OutputText);
+        return sc.nextLine();
+    }
+    public int getIntegerInput(String OutputText)
+    {
+        System.out.println(OutputText);
+        return sc.nextInt();
+    }
+    public float getFloatInput(String OutputText){
+        System.out.println(OutputText);
+        return sc.nextFloat();
+    }
+    public long getLongInput(String OutputText)
+    {
+        System.out.println(OutputText);
+        return sc.nextInt();
+    }
+    public short getShortInput(String OutputText){
+        System.out.println(OutputText);
+        return sc.nextShort();
+    }
+    public double getDoubleInput(String OutputText)
+    {
+        System.out.println(OutputText);
+        return sc.nextDouble();
+    }
+    public char getCharacterInput(String OutputText){
+        System.out.println(OutputText);
+        return sc.next().charAt(0);
     }
 }
