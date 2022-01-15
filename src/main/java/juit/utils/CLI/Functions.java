@@ -117,4 +117,5 @@ public class Functions {
         System.out.println(OutputText);
         return sc.next().charAt(0);
     }
+
 }
