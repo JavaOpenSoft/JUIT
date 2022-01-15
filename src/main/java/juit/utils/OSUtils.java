@@ -33,7 +33,7 @@ public class OSUtils {
         try {
             String osName = System.getProperty("os.name");
             if (osName == null) {
-                throw new IOException("Cannot Get The Operating System Because The Variable Is Null.");
+                throw new IOException("Cannot Get The Operating System Details...");
             }
             osName = osName.toLowerCase(Locale.ENGLISH);
             if (osName.contains("windows")) {
@@ -71,9 +71,7 @@ public class OSUtils {
     @SuppressWarnings("unused")
     public String getOSWithVersion()
     {
-    	String osWithVersion = (getOs()+" " + OS.getVersion()).trim();
-    	osWithVersion = osWithVersion.toLowerCase(Locale.ENGLISH);
-    	return osWithVersion;
+        return (getOs()+" " + OS.getVersion()).trim().toLowerCase(Locale.ENGLISH);
     }
     
 }

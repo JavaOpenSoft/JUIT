@@ -62,4 +62,8 @@ public class ToggleSwitch {
         this.Text = Text;
     }
 
+    public String getText() {
+        return Text;
+    }
+
 }
