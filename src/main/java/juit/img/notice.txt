@@ -1,0 +1,2 @@
+this package is only used for the notification window classes. you can use DefaultImages.java class to restore to default image
+or to use in your application. to use it, create a instance of DefaultImages.java class in your code.
