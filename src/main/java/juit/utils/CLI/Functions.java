@@ -117,5 +117,12 @@ public class Functions {
         System.out.println(OutputText);
         return sc.next().charAt(0);
     }
-
+    public char[] getCharacterArrayInput(String OutputText){
+        System.out.println(OutputText);
+        return sc.nextLine().toCharArray();
+    }
+    public byte getByteInput(String OutputText){
+        System.out.println(OutputText);
+        return sc.nextByte();
+    }
 }
