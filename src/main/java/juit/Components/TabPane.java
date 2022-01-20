@@ -41,37 +41,37 @@ public class TabPane {
         setPosition(PositionX,PositionY);
         setSize(SizeX, SizeY);
     }
-    public void add(Button button){
-        jTabbedPane.add(button.jButton);
+    public void addAsTab(Button button,String name){
+        jTabbedPane.add(button.jButton, name);
     }
-    public void add(CheckBox checkBox){
-        jTabbedPane.add(checkBox.jCheckBox);
+    public void addAsTab(CheckBox checkBox,String name){
+        jTabbedPane.add(checkBox.jCheckBox, name);
     }
-    public void add(EditorPane editorPane){
-        jTabbedPane.add(editorPane.jEditorPane);
+    public void addAsTab(EditorPane editorPane,String name){
+        jTabbedPane.add(editorPane.jEditorPane, name);
     }
-    public void add(FileChooser fileChooser){
-        jTabbedPane.add(fileChooser.jFileChooser);
+    public void addAsTab(FileChooser fileChooser,String name){
+        jTabbedPane.add(fileChooser.jFileChooser, name);
     }
-    public void add(ImageFrame imageFrame){
-        jTabbedPane.add(imageFrame.imageFrame);
+    public void addAsTab(ImageFrame imageFrame,String name){
+        jTabbedPane.add(imageFrame.imageFrame, name);
     }
-    public void add(Label label){
-        jTabbedPane.add(label.label);
+    public void addAsTab(Label label,String name){
+        jTabbedPane.add(label.label, name);
     }
-    public void add(Panel panel){
-        jTabbedPane.add(panel.jPanel);
+    public void addAsTab(Panel panel,String name){
+        jTabbedPane.add(panel.jPanel, name);
     }
-    public void add(PasswordField passwordField){
+    public void addAsTab(PasswordField passwordField,String name){
         jTabbedPane.add(passwordField.jPasswordField);
     }
-    public void add(ProgressBar progressBar){
+    public void addAsTab(ProgressBar progressBar,String name){
         jTabbedPane.add(progressBar.progressBar);
     }
-    public void add(RadioButton radioButton){
+    public void addAsTab(RadioButton radioButton,String name){
         jTabbedPane.add(radioButton.jRadioButton);
     }
-    public void add(ScrollBar scrollBar, String Type){
+    public void addAsTab(ScrollBar scrollBar, String Type,String name){
         if(Type.equals("HORIZONTAL"))jTabbedPane.add(scrollBar.BottomScrollBar);
         if(Type.equals("VERTICAL"))jTabbedPane.add(scrollBar.jScrollBar);
         if(Type.equals("HORIZONTAL AND VERTICAL")){
@@ -79,31 +79,34 @@ public class TabPane {
             jTabbedPane.add(scrollBar.jScrollBar);
         }
     }
-    public void add(ScrollPane scrollPane){
-        jTabbedPane.add(scrollPane.jScrollPane);
+    public void addAsTab(ScrollPane scrollPane,String name){
+        jTabbedPane.add(scrollPane.jScrollPane, name);
     }
-    public void add(Separator separator){
-        jTabbedPane.add(separator.jSeparator);
+    public void addAsTab(Separator separator,String name){
+        jTabbedPane.add(separator.jSeparator, name);
     }
-    public void add(Slider slider){
-        jTabbedPane.add(slider.jSlider);
+    public void addAsTab(Slider slider,String name){
+        jTabbedPane.add(slider.jSlider, name);
     }
-    public void add(Spinner spinner){
+    public void addAsTab(Spinner spinner,String name){
         jTabbedPane.add(spinner.jSpinner);
     }
-    public void add(TabPane tabPane){
+    public void addAsTab(TabPane tabPane,String name){
         jTabbedPane.add(tabPane.jTabbedPane);
     }
-    public void add(TextArea textArea){
+    public void addAsTab(TextArea textArea,String name){
         jTabbedPane.add(textArea.jTextArea);
     }
-    public void add(TextField textField){
+    public void addAsTab(TextField textField,String name){
         jTabbedPane.add(textField.jTextField);
     }
-    public void add(TextPane textPane){
+    public void addAsTab(TextPane textPane,String name){
         jTabbedPane.add(textPane.textPane);
     }
-    public void add(ToggleSwitch toggleSwitch){
+    public void addAsTab(ToggleSwitch toggleSwitch,String name){
         jTabbedPane.add(toggleSwitch.jToggleButton);
     }
+
+
+
 }
