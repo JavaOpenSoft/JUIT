@@ -1,17 +1,15 @@
 package juit.utils.CLI;
 
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.net.URL;
+
 public class RemoteFile {
-    private String URL1,URL2;
+    private String URL;
     public void DownloadFile(String URL){
-        this.URL1 = URL;
-    }
-    public void readFileOnline(String URL){
-        this.URL2 = URL;
+        this.URL = URL;
     }
     public String getCurrentlyDownloadedFileURL(){
-        return this.URL1;
-    }
-    public String getCurrentReadFile(){
-        return this.URL2;
+        return this.URL;
     }
 }
