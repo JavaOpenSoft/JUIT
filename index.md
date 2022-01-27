@@ -17,6 +17,8 @@ This section will be available once 1.0_rc1 will be released.
 ### Status for these releases:
 **1.0_release**- not yet started
 
+**1.0_Alpha** - not yet started
+
 **1.0_rc5**- not yet started
 
 **1.0_rc4** - not yet started
@@ -25,42 +27,46 @@ This section will be available once 1.0_rc1 will be released.
 
 **1.0_rc2** - not yet started
 
-**1.0_rc1** - not yet started
+**1.0_rc1** - Started Working On....
 
-**1.0_Alpha** - not yet started
 
 **JUIT 0.9** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_ not yet started
+**Status:**_ Finished.
 
 **JUIT 0.8** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_ Currently Working On Source Code.
+**Status:** - Finished.
 
 **JUIT 0.7** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_ Finished
+**Status:**_ Finished.
 
 **JUIT 0.6** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:**-Finished.
 
 **JUIT 0.5** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:**-Finished.
 
 **JUIT 0.4** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:** - Finished.
 
 **JUIT 0.3** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:** - Finished.
 
 **JUIT 0.2** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:** - Finished.
 
 **JUIT 0.1** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
 
-**Status:**_Finished
+**Status:** - Finished.
+
+**#Section for Current, and future updates**
+1)1.0_rc1 has been Released... keep testing and report bugs if there are any...
+2)1.0_rc2 will come out by either late march or early april.. until then, keep innovating ideas for your project!
+or you can contibute to my project by just testing. i might pay you back.
