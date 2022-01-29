@@ -66,11 +66,12 @@ This section will be available once 1.0_rc1 will be released.
 
 **Status:** - Finished.
 
-**
+
 # Section for Current, and future updates
 1)1.0_rc1 has been Released... keep testing and report bugs if there are any...
 
 2)1.0_rc2 will come out by either late march or early april.. 
 
 until then, keep innovating ideas for your project!
+
 or you can contibute to my project by just testing. your contributions may change the the whole library.
