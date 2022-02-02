@@ -163,7 +163,6 @@ public class WarningNotification {
         String temp =cancel.getText().trim();
         cancel.setText(temp);
     }
-    @SuppressWarnings("unused")
     public void trimTextOfOkButton()
     {
         String temp =ok.getText().trim();
