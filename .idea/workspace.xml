@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="restored files.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/TerminalFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <workItem from="1643811894363" duration="4219000" />
       <workItem from="1643816487515" duration="333000" />
       <workItem from="1643816829769" duration="705000" />
-      <workItem from="1643966691796" duration="3787000" />
+      <workItem from="1643966691796" duration="4662000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -299,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643992778434</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="restored files.">
+      <created>1643994364216</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1643994364216</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
