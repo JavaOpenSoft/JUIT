@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="Added:&#10;small changes">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="restored files.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/TerminalFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +63,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/juit/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/juit/utils" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +108,7 @@
       <workItem from="1643811894363" duration="4219000" />
       <workItem from="1643816487515" duration="333000" />
       <workItem from="1643816829769" duration="705000" />
-      <workItem from="1643966691796" duration="2533000" />
+      <workItem from="1643966691796" duration="3787000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -283,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643815291963</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="restored files.">
+      <created>1643992778434</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1643992778434</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +350,7 @@
     <MESSAGE value="Added:&#10;Compressed JAR File of 1.0_rc1" />
     <MESSAGE value="Added:&#10;Base Files for future releases" />
     <MESSAGE value="Added:&#10;small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added:&#10;small changes" />
+    <MESSAGE value="restored files." />
+    <option name="LAST_COMMIT_MESSAGE" value="restored files." />
   </component>
 </project>
