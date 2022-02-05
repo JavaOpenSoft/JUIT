@@ -9,7 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="small changes" />
+    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="small changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/juit/Components/Constants/WindowConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/Components/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/Components/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -68,12 +75,28 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/juit/utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -106,6 +129,17 @@
       <workItem from="1643816487515" duration="333000" />
       <workItem from="1643816829769" duration="705000" />
       <workItem from="1643966691796" duration="4743000" />
+      <workItem from="1644038008931" duration="285000" />
+      <workItem from="1644043092964" duration="84000" />
+      <workItem from="1644043181947" duration="103000" />
+      <workItem from="1644043290363" duration="15000" />
+      <workItem from="1644046366643" duration="189000" />
+      <workItem from="1644046566954" duration="155000" />
+      <workItem from="1644046739092" duration="196000" />
+      <workItem from="1644046937140" duration="74000" />
+      <workItem from="1644047026565" duration="78000" />
+      <workItem from="1644047117572" duration="12000" />
+      <workItem from="1644047139263" duration="4473000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -310,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643994828291</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="small changes">
+      <created>1644038123564</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1644038123564</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,21 +7,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.security.InvalidParameterException;
 
-public class Window extends JComponent{
-    static final public byte EXIT_ON_CLOSE = JFrame.EXIT_ON_CLOSE;
-    static final public byte DO_NOTHING_ON_CLOSE = JFrame.DO_NOTHING_ON_CLOSE;
-    static final public byte HIDE_ON_CLOSE = JFrame.HIDE_ON_CLOSE;
-    static final public byte DISPOSE_ON_CLOSE = JFrame.DISPOSE_ON_CLOSE;
-    static final public String CENTRE = "CENTRE";
-    static final public String LEFT_CENTRE = "LEFT_CENTRE";
-    static final public String RIGHT_CENTRE = "RIGHT_CENTRE";
-    static final public String DOWN_CENTRE = "DOWN_CENTRE";
-    static final public String UP_CENTRE = "UP_CENTRE";
-    static final public String RIGHT_DOWN_CORNER = "RIGHT_DOWN_CORNER";
-    static final public String RIGHT_UP_CORNER = "RIGHT_UP_CORNER";
-    static final public String LEFT_UP_CORNER = "LEFT_UP_CORNER";
-    static final public String LEFT_DOWN_CORNER = "LEFT_DOWN_CORNER";
-
+public class Window extends JComponent implements juit.Components.Constants.WindowConstants{
 
     Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
     private final int posx = size.width;
