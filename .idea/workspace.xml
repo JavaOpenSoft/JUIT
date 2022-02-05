@@ -10,10 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/juit/Components/Constants/WindowConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/juit/Components/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/Components/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/EditorPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/EditorPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TabPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TabPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/WarningNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/WarningNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Audio/Audio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Audio/AudioMP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,9 +93,25 @@
       <recent name="$PROJECT_DIR$/src/main/java/juit/utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test">
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juit.utils.Terminal.test" />
+      <module name="JUIT.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="juit.utils.Terminal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="juit.utils.Terminal.test" />
+      <module name="JUIT" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,6 +119,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +164,7 @@
       <workItem from="1644046937140" duration="74000" />
       <workItem from="1644047026565" duration="78000" />
       <workItem from="1644047117572" duration="12000" />
-      <workItem from="1644047139263" duration="4473000" />
+      <workItem from="1644047139263" duration="6416000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -351,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644038123564</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="small changes">
+      <created>1644058009445</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1644058009445</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

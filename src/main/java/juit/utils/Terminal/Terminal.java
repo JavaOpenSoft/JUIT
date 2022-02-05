@@ -2,13 +2,13 @@ package juit.utils.Terminal;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import juit.Components.Constants.WindowConstants;
-public class Terminal{
-    Action Run;
+public class Terminal implements KeyListener {
     String commands;
     JFrame frame = new JFrame("Terminal");
     JScrollPane scrollPane = new JScrollPane();
@@ -17,8 +17,11 @@ public class Terminal{
     String username = System. getProperty("user.name");
     String SystemName = InetAddress.getLocalHost().getHostName();
     public Terminal() throws UnknownHostException {
-        frame.add(textArea);
         textArea.append(username+"@"+username +"-" +SystemName);
+
+        scrollPane.add(textArea);
+        frame.add(scrollPane);
+        frame.setVisible(true);
 
     }
     public void run(String commands) throws IOException {
@@ -31,6 +34,21 @@ public class Terminal{
     public CommandProcessor getInstance()
     {
         return CommandProcessor.getInstance();
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+
     }
 }
 class CommandProcessor {
@@ -47,12 +65,5 @@ class CommandProcessor {
 
     private static final class CommandProcessorHolder {
         static final CommandProcessor INSTANCE = new CommandProcessor();
-    }
-}
-class Run extends AbstractAction{
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
     }
 }
