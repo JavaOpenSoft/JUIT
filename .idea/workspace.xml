@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="JUIT:jar" />
@@ -9,9 +13,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="test release">
+    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="removed test files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Functions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +83,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -156,7 +165,7 @@
       <workItem from="1644047139263" duration="7105000" />
       <workItem from="1644143057293" duration="418000" />
       <workItem from="1644152484993" duration="425000" />
-      <workItem from="1644232120832" duration="412000" />
+      <workItem from="1644232120832" duration="2675000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -382,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644059971338</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="removed test files">
+      <created>1644241343284</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644241343284</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +451,7 @@
     <MESSAGE value="Added:&#10;small changes" />
     <MESSAGE value="restored files." />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="removed test files" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed test files" />
   </component>
 </project>

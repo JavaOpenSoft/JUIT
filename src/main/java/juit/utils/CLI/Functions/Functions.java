@@ -1,22 +1,7 @@
-package juit.utils.CLI;
+package juit.utils.CLI.Functions;
 
 public class Functions {
-    public int add(int num1, int num2) {
-        return num1 + num2;
-    }
 
-    public int sub(int num1, int num2) {
-        return num1 - num2;
-    }
-
-    public int multiply(int num1, int num2)
-    {
-        return num1*num2;
-    }
-    public int divide(int num1,int num2)
-    {
-        return num1/num2;
-    }
     public boolean equals(String str1,String str2)
     {
         return str1.equals(str2);
@@ -84,4 +69,8 @@ public class Functions {
     public static boolean isNumeric(String str){
         return str != null && str.matches("[0-9.]+");
     }
+    public int toInt(float value){
+        return Integer.parseInt(String.valueOf(value));
+    }
+
 }
