@@ -9,20 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="small changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" afterDir="false" />
+    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="test release">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/EditorPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/EditorPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TabPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TabPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/TextPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/WarningNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/WarningNotification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/Components/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/Components/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Audio/Audio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Audio/AudioMP3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/Terminal/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +82,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/juit/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.test (1)">
     <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="juit.utils.Terminal.test" />
       <module name="JUIT.main" />
@@ -164,7 +153,10 @@
       <workItem from="1644046937140" duration="74000" />
       <workItem from="1644047026565" duration="78000" />
       <workItem from="1644047117572" duration="12000" />
-      <workItem from="1644047139263" duration="6416000" />
+      <workItem from="1644047139263" duration="7105000" />
+      <workItem from="1644143057293" duration="418000" />
+      <workItem from="1644152484993" duration="425000" />
+      <workItem from="1644232120832" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -383,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644058009445</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="small changes">
+      <created>1644059971338</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1644059971338</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
