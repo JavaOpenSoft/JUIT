@@ -26,4 +26,15 @@ public class Math {
     public int cube(int num){
         return num*num*num;
     }
+    public int power(int num, short power){
+        int temp = 0;
+        for(int i=0; i<power; i++)num*=num;
+        return temp;
+    }
+    public float cbrt(int num){
+        return (float) java.lang.Math.cbrt(num);
+    }
+    public int root(int num, int root){
+        return (int) java.lang.Math.round(java.lang.Math.pow(125, 1 / root));
+    }
 }

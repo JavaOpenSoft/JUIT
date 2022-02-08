@@ -13,13 +13,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="removed test files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" afterDir="false" />
+    <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="added Math.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/Base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/juit/utils/Terminal/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Functions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +161,8 @@
       <workItem from="1644047139263" duration="7105000" />
       <workItem from="1644143057293" duration="418000" />
       <workItem from="1644152484993" duration="425000" />
-      <workItem from="1644232120832" duration="2675000" />
+      <workItem from="1644232120832" duration="2759000" />
+      <workItem from="1644310865675" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -398,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644241343284</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="small changes">
+      <created>1644251493426</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644251493426</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,8 +454,9 @@
     <MESSAGE value="Added:&#10;Base Files for future releases" />
     <MESSAGE value="Added:&#10;small changes" />
     <MESSAGE value="restored files." />
-    <MESSAGE value="small changes" />
     <MESSAGE value="removed test files" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed test files" />
+    <MESSAGE value="small changes" />
+    <MESSAGE value="added Math.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Math.java" />
   </component>
 </project>
