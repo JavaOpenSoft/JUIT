@@ -14,7 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25f0ced-e258-4948-b750-9bd2127c8731" name="Changes" comment="added Math.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/juit/Components/test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/juit/Components/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/Components/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/juit/utils/CLI/Functions/Math.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +164,8 @@
       <workItem from="1644143057293" duration="418000" />
       <workItem from="1644152484993" duration="425000" />
       <workItem from="1644232120832" duration="2759000" />
-      <workItem from="1644310865675" duration="725000" />
+      <workItem from="1644310865675" duration="1943000" />
+      <workItem from="1644397623565" duration="3212000" />
     </task>
     <task id="LOCAL-00001" summary="Removed Redeuntant Class: FormattedTextField.java">
       <created>1641922918159</created>
@@ -402,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644251493426</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added Math.java">
+      <created>1644328937253</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644328937254</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

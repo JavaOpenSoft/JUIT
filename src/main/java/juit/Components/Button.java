@@ -7,35 +7,42 @@ import java.awt.event.ActionListener;
 public class Button {
     JButton jButton = new JButton();
     String Text;
-    private int y = 50, x = 100, SizeX = 100,SizeY = 50;
-    public Button(String Text, int x, int y) {
+    private int PositionY = 50, PositionX = 100, SizeX = 100,SizeY = 50;
+    public Button(String Text, int PositionX, int PositionY) {
         jButton.setText(Text);
-        jButton.setSize(x,y);
+        jButton.setSize(PositionX,PositionY);
         jButton.setVisible(true);
         this.Text = Text;
-        this.x = x;
-        this.y = y;
+        this.PositionX = PositionX;
+        this.PositionY = PositionY;
         this.SizeX = SizeX;
         this.SizeY = SizeY;
     }
-
-    public void createButton(String Text,int x, int y,int SizeX, int SizeY)
-    {
-        jButton = new JButton(Text);
-        jButton.setBounds(x,y,SizeX,SizeY);
+    public Button(String Text){
+        jButton.setText(Text);
         jButton.setVisible(true);
         this.Text = Text;
-        this.x = x;
-        this.y = y;
+    }
+    public Button(){
+        jButton.setVisible(true);
+    }
+    public void createButton(String Text,int PositionX, int PositionY,int SizeX, int SizeY)
+    {
+        jButton = new JButton(Text);
+        jButton.setBounds(PositionX,PositionY,SizeX,SizeY);
+        jButton.setVisible(true);
+        this.Text = Text;
+        this.PositionX = PositionX;
+        this.PositionY = PositionY;
         this.SizeX = SizeX;
         this.SizeY = SizeY;
     }
     public String getText()
     {return Text;}
-    public int GetX()
-    {return x;}
-    public int GetY()
-    {return y;}
+    public int GetPositionX()
+    {return PositionX;}
+    public int GetPositionY()
+    {return PositionY;}
     public int GetSizeX()
     {return SizeX;}
     public int GetSizeY()
@@ -48,7 +55,9 @@ public class Button {
     public void setText(String text) {jButton.setText(text);}
     public void setButtonSize(int SizeX,int SizeY)
     {
-        jButton.setSize(x,y);
+        jButton.setSize(SizeX,SizeY);
+        this.SizeX = SizeX;
+        this.SizeY = SizeY;
     }
     public void addFileChooserToButton(FileChooser fileChooser,String path)
     {

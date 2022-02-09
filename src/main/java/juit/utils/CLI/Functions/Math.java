@@ -27,14 +27,15 @@ public class Math {
         return num*num*num;
     }
     public int power(int num, short power){
-        int temp = 0;
-        for(int i=0; i<power; i++)num*=num;
+        int temp = num;
+        for(int i=0; i<power; i++)temp*=num;
         return temp;
     }
     public float cbrt(int num){
         return (float) java.lang.Math.cbrt(num);
     }
     public int root(int num, int root){
-        return (int) java.lang.Math.round(java.lang.Math.pow(125, 1 / root));
+        return (int) java.lang.Math.round(java.lang.Math.pow(125, (float)1 / root));
     }
+
 }
