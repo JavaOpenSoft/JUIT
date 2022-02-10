@@ -1,9 +1,10 @@
 package juit.utils.Clock;
 
 
+import java.awt.Component;
 public class Clock {
     String type = "";
-    public DigitalClock getDigitalClock()
+    public Component getDigitalClock()
     {
         type = "Digital";
         return new DigitalClock();
