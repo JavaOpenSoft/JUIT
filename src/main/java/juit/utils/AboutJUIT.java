@@ -1,8 +1,12 @@
 package juit.utils;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JLabel;
+import javax.swing.JFrame;
+import java.awt.Image;
+import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 import java.util.Objects;
+import java.awt.Font;
 
 public class AboutJUIT {
     public void ShowJUIDetails(int x, int y) {
@@ -23,7 +27,7 @@ public class AboutJUIT {
         IconImage.setIcon(new ImageIcon(Objects.requireNonNull(AboutJUIT.class.getResource("/jui/img/db877c2e-4f32-43bf-8454-7d34afd48786 (1).png"))));
         frame.getContentPane().add(IconImage);
 
-        JLabel VersionNumber = new JLabel("Version 0.6 Beta");
+        JLabel VersionNumber = new JLabel("Version 1.0_rc1");
         VersionNumber.setBounds(162, 194, 106, 16);
         frame.getContentPane().add(VersionNumber);
 
