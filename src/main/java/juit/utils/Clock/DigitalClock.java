@@ -1,10 +1,12 @@
 package juit.utils.Clock;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JLabel;
+import javax.swing.JFrame;
+import java.awt.FlowLayout;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
+import java.awt.Font;
+import java.awt.Color;
 class DigitalClock extends JFrame {
 
     Calendar calendar;
