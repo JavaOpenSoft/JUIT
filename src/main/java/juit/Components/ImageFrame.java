@@ -1,14 +1,19 @@
 package juit.Components;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.util.Objects;
+import javax.swing.ImageIcon;
+import java.awt.Image;
+
 
 public class ImageFrame {
     JLabel imageFrame = new JLabel();
     JFrame frame = new JFrame();
     private int SizeX,SizeY,PositionX,PositionY;
-    Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
+    Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
     private final int posx = size.width;
     private final int posy = size.height;
     public void setLocationOnScreen(String Location)

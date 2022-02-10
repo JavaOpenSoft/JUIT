@@ -1,6 +1,12 @@
 package juit.utils;
-
-import java.io.*;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class FileIO {
     private BufferedWriter bufferedWriter;
@@ -22,22 +28,32 @@ public class FileIO {
             e.printStackTrace();
         }
     }
-    public void copyContentsOfFile()
-    {
-        try {
-            bufferedReader = new BufferedReader(new FileReader(inPath));
-            bufferedWriter = new BufferedWriter(new FileWriter(outPath));
-            String data;
-            while((data = bufferedReader.readLine()) != null)
-            {
-                bufferedWriter.write(data+"\n");
-            }
+    
+    public String[] getContentsOfFile(juit.utils.Files file) throws IOException {
+        bufferedReader = new BufferedReader(new FileReader(file.file));
+        ArrayList<String> contents = new ArrayList<String>();
+        Scanner sc = new Scanner(file.file);
+        int count = 0;
+        while(sc.hasNextLine()) {
+            sc.nextLine();
+            count++;
         }
-        catch (Exception e)
-        {
-            e.printStackTrace();
+        String[] str = new String[count];
+        while(bufferedReader.readLine() != null){
+            contents.add(bufferedReader.readLine());
         }
+        return contents.toArray(str);
     }
+    public void deleteFile(juit.utils.Files file) throws IOException{
+        file.file.delete();
+    }
+    public void doesExist(juit.utils.Files file) throws IOException{
+        file.file.exists();
+    }
+    public void renameFile(juit.utils.Files file, String name) throws IOException{
+        file.file.renameTo(new File(name));
+    }
+
     public void createFolder(String FolderName,String path)
     {
         String temp = path+"\\"+FolderName;
@@ -61,6 +77,7 @@ public class FileIO {
     {
         try {
             bufferedReader = new BufferedReader(new FileReader(pathOfFile));
+            String ln = bufferedReader.readLine(); 
         }
         catch (Exception e){
             e.printStackTrace();

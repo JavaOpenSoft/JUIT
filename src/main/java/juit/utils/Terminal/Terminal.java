@@ -1,6 +1,6 @@
 package juit.utils.Terminal;
 
-import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -8,6 +8,9 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import juit.Components.Constants.WindowConstants;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+
 public class Terminal implements KeyListener {
     String commands;
     JFrame frame = new JFrame("Terminal");

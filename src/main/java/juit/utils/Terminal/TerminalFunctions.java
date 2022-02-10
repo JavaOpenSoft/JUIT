@@ -1,11 +1,14 @@
 package juit.utils.Terminal;
 
-import javax.swing.*;
-import java.awt.*;
+
+import java.awt.BorderLayout;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
-
+import javax.swing.JTextArea;
+import javax.swing.JPanel;
+import java.awt.Color;
+import javax.swing.JScrollPane;
 /**
  * Created by peter on 9/1/15.
  */

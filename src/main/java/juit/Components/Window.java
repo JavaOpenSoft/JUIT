@@ -13,6 +13,7 @@ public class Window extends JComponent implements juit.Components.Constants.Wind
     private final int posx = size.width;
     private final int posy = size.height;
     int SizeX,SizeY,PositionX,PositionY;
+    private String Title;
 
     public int getPositionX() {
         return PositionX;
@@ -24,15 +25,26 @@ public class Window extends JComponent implements juit.Components.Constants.Wind
 
     JFrame window = new JFrame();
 
-    public void createWindow(String Title, int SizeX, int SizeY)
+    public Window(String Title, int SizeX, int SizeY)
     {
         window.setTitle(Title);
         window.setVisible(true);
         window.setSize(SizeX,SizeY);
         this.SizeX = SizeX;
         this.SizeY = SizeY;
+        this.Title = Title;
     }
-
+    public Window(String Title, int SizeX, int SizeY, int PositionX, int PositionY)
+    {
+        window.setTitle(Title);
+        window.setVisible(true);
+        window.setBounds(PositionX,PositionY,SizeX,SizeY);
+        this.SizeX = SizeX;
+        this.SizeY = SizeY;
+        this.PositionX = PositionX;
+        this.PositionY = PositionY;
+        this.Title = Title;
+    }
     public JFrame getWindow() {
         return window;
     }
@@ -161,5 +173,14 @@ public class Window extends JComponent implements juit.Components.Constants.Wind
             temp.setBounds(posx,posy,0,0);
             window.setLocationRelativeTo(temp);
         }
+    }
+
+    public void setTitle(String Title) {
+        window.setTitle(Title);
+        this.Title = Title;
+    }
+
+    public void setDefaultCloseOperation(int index) {
+        window.setDefaultCloseOperation(index);
     }
 }
