@@ -1,8 +1,12 @@
 package juit.utils;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JLabel;
+import javax.swing.JFrame;
+import javax.swing.ImageIcon;
+import java.awt.Image;
+import java.awt.Toolkit;
 import java.util.Objects;
+import java.awt.Font;
 
 public class AboutApp {
     int versionNumber;
