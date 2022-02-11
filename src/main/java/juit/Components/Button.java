@@ -7,6 +7,8 @@ public class Button {
     JButton jButton = new JButton();
     String Text;
     private int PositionY = 50, PositionX = 100, SizeX = 100,SizeY = 50;
+    private boolean isVisible;
+
     public Button(String Text, int PositionX, int PositionY) {
         jButton.setText(Text);
         jButton.setSize(PositionX,PositionY);
@@ -62,4 +64,13 @@ public class Button {
     {
         jButton.addActionListener(actionListener);
     }
+
+    public void setVisible(boolean isVisible) {
+        jButton.setVisible(isVisible);
+        this.isVisible = isVisible;
+    }
+    public boolean isVisible(){
+        return isVisible();
+    }
+
 }
