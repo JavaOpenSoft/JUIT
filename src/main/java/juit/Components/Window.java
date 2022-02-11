@@ -8,12 +8,32 @@ import java.awt.*;
 import java.security.InvalidParameterException;
 
 public class Window extends JComponent implements juit.Components.Constants.WindowConstants{
-
+    JFrame window = new JFrame();
     Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
     private final int posx = size.width;
     private final int posy = size.height;
     int SizeX,SizeY,PositionX,PositionY;
     private String Title;
+    private boolean isVisible;
+
+    public Window() {
+        this.setVisible(true);
+    }
+    public Window(String Title) {
+        setTitle(Title);
+    }
+    public Window(int SizeX,int SizeY) {
+        setSize(SizeX,SizeY);
+    }
+    public Window(short PositionX,short PositionY) {
+        setPosition(PositionX,PositionY);
+    }
+
+    private void setPosition(int PositionX, int PositionY) {
+        window.setBounds(PositionX,PositionY,SizeX,SizeY);
+        this.PositionX = PositionX;
+        this.PositionY = PositionY;
+    }
 
     public int getPositionX() {
         return PositionX;
@@ -23,8 +43,10 @@ public class Window extends JComponent implements juit.Components.Constants.Wind
         return PositionY;
     }
 
-    JFrame window = new JFrame();
-
+    public void setVisible(boolean isVisible){
+        window.setVisible(isVisible);
+        this.isVisible = isVisible;
+    }
     public Window(String Title, int SizeX, int SizeY)
     {
         window.setTitle(Title);
@@ -182,5 +204,8 @@ public class Window extends JComponent implements juit.Components.Constants.Wind
 
     public void setDefaultCloseOperation(int index) {
         window.setDefaultCloseOperation(index);
+    }
+    public boolean isVisible(){
+        return isVisible;
     }
 }
