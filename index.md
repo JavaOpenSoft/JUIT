@@ -23,11 +23,11 @@ This section will be available once 1.0_rc1 will be released.
 
 **1.0_rc4** - not yet started
 
-**1.0_rc3** - not yet started
+**1.0_rc3** - Started Working On....
 
-**1.0_rc2** - not yet started
+**1.0_rc2** - finished and released.
 
-**1.0_rc1** - Started Working On....
+**1.0_rc1** - finished and released.
 
 
 **JUIT 0.9** - This is a beta,un- usable release. source code downloadable. source code will be continously updated.
@@ -70,8 +70,4 @@ This section will be available once 1.0_rc1 will be released.
 # Section for Current, and future updates
 1)1.0_rc1 has been Released... keep testing and report bugs if there are any...
 
-2)1.0_rc2 will come out by either late march or early april.. 
-
-until then, keep innovating ideas for your project!
-
-or you can contibute to my project by just testing. your contributions may change the the whole library.
+2)1.0_rc2 has been released... i didnt expect to take as long as i expected.keep testing and report bugs if there are any...
