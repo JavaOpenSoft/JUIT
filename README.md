@@ -1,7 +1,7 @@
 # JUIT
 a great library for your app development
 
-Website: https://rishonjr.github.io/JUIT
+Website: https://rishondev.github.io/JUIT
 
 Current Release(Latest): 1.0_rc1
 
