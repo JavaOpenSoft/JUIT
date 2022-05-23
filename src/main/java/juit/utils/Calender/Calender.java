@@ -1,12 +1,11 @@
 package juit.utils.Calender;
-import juit.Components.Window;
+import juit.Core.Window;
 
 import java.awt.FlowLayout;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
-import juit.Components.Window;
 
 class Calender {
     private JPanel panel;
