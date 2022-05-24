@@ -37,7 +37,7 @@ public class Window extends JComponent implements juit.Constants.WindowConstants
         this.setLocationOnScreen("CENTRE");
     }
 
-    private void setPosition(int PositionX, int PositionY) {
+    public void setPosition(int PositionX, int PositionY) {
         window.setBounds(PositionX,PositionY,SizeX,SizeY);
         this.PositionX = PositionX;
         this.PositionY = PositionY;
