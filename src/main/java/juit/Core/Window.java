@@ -1,3 +1,4 @@
+
 package juit.Core;
 
 import juit.Layouts.*;
@@ -9,10 +10,15 @@ import java.security.InvalidParameterException;
 
 public class Window extends JComponent implements juit.Constants.WindowConstants{
     JFrame window = new JFrame();
-    Dimension size = Toolkit.getDefaultToolkit ().getScreenSize ();
+    Dimension size = Toolkit.getDefaultToolkit ().getScreenSize();
     private final int posx = size.width;
     private final int posy = size.height;
     int SizeX,SizeY,PositionX,PositionY;
+
+    public String getTitle() {
+        return Title;
+    }
+
     private String Title;
     private boolean isVisible;
 
