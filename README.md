@@ -3,4 +3,4 @@
 
 a great library for your app development
 
-Website: https://rishondev.github.io/JUIT
+Website: https://rishondev.github.io/JADT
