@@ -1,4 +1,4 @@
-# JUIT
+# JADT
 **Warning : This is an archived repository, could have security issues.**
 
 a great library for your app development
